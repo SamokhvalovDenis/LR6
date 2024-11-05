@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад пар</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Лабораторна робота №1 Javascript</h1>
+        <p>Пастушок Денис Олександрович</p>
+        <p>КН-31(3)</p>
+        <p>Варіант №4</p>
+    </header>
+    
+    <main>
+        <h2>Завдання на лабораторну роботу</h2>
+        <p>
+            Створити масиви значень:<br>
+            − назва предмету;<br>
+            − початок пари;<br>
+            − прізвище викладача (допускається пусте значення).<br>
+            Тривалість пари 80 хвилин. Вивести інформацію про те, яка зараз пара,<br>
+            опираючись на поточний час. Якщо в даний момент немає жодної пари, вивести<br>
+            одне з повідомлень:<br>
+            − пари ще не почалися;<br>
+            − перерва після <номер> пари;<br>
+            − пари закінчилися.<br>
+            Якщо не вказано прізвище викладача, вивести додаткове повідомлення.<br>
+        </p>
+        <button onclick="updateScheduleInfo()">Оновити інформацію про пари</button>
+        <table id="scheduleTable">
+            <thead>
+                <tr>
+                    <th>№ пари</th>
+                    <th>Назва предмету</th>
+                    <th>Час початку</th>
+                    <th>Викладач</th>
+                    <th>Статус</th>
+                </tr>
+            </thead>
+            <tbody id="scheduleInfo"></tbody>
+        </table>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

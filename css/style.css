@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/2.jpg);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-image: url(../img/1.jpg);
+}
+
+main {
+    max-width: 600px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #fff; /* Білий фон для клітинок */
+}
+
+
+thead {
+    background-color: #f4f4f4;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    background-color: #004494;
+    transform: translateY(1px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#scheduleTable {
+    display: none; /* Приховуємо таблицю */
+}
